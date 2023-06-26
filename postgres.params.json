@@ -1,0 +1,31 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "serverName": {
+        "value": "your_server"
+      },
+      "administratorLogin": {
+        "value": "your_login"
+      },
+      "administratorLoginPassword": {
+        "value": "your_password"
+      },
+      "skuName": {
+        "value": "Standard_B1ms"
+      },
+      "skuTier": {
+        "value": "Burstable"
+      },
+      "version": {
+        "value": "14"
+      },
+      "storageSize": {
+        "value": 128
+      },
+      "backupRetentionDays": {
+        "value": 7
+      }
+    }
+  }
+  
